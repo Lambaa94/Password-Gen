@@ -10,20 +10,20 @@ function writePassword() {
 
 }
 
-
+// Characters the computer randomizes
 var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 var special = ["!", "#", "$", "%", "&", "*", "+", "-", ",", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "}", "~"];
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 
-
+// Generate Button
 function generatePassword() {
   listOfChar = []
-  // prompt length
-  
+ 
+// Prompt User for password length 
   var length = parseInt(prompt("Pick a number between 8 and 128 for the length of your password."));
-  while (length < 8 || length > 128) {
+  while (length < 8 || length > 128 || isNaN(length) === true  ) {
     alert("please choose a valid number");
     var length = parseInt(prompt("Pick a number between 8 and 128 for the length of your password."));
   }
@@ -46,12 +46,11 @@ function generatePassword() {
   
   if (!hasLowerCase && !hasUpperCase && !hasSpecial && !hasNumb) {
     alert("You need to select at least one character");
-    location.reload();
+    reset();
   
     
   }
   
-
   // take the value the user gives and the true confirms
   // and then randomly generate password up to the amount the user gives 
 
@@ -63,7 +62,7 @@ function generatePassword() {
 
   }
 
-
+// Returns Password
 
   return randomPass;
 
