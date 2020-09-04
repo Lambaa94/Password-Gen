@@ -8,6 +8,8 @@ Beginning with the variables I worked down from there and added prompts and conf
 
 I also put alerts to tell the user that they must select a valid number to start off the generator. When the user is finished with the prompts they will get a password shown inside the text area. Lots of collaboration was done to finish this and It was good to talk out the problem with someone to really understand what was being done.
 
+I found out eventually that there were many ways to do the same thing as I went down the long ways and found them to be unnecessary. I realized I can do the same thing with much less code and would make it easier for other developers to view it. I found new tricks that I'm sure I will use further into my career. Great project!
+
 ## Usage
 
 1. *Click* generate password.
