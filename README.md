@@ -21,6 +21,10 @@ _________________________________________________
 
 ***https://lambaa94.github.io/Password-Gen/***
 
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Credits
 
 * https://www.w3schools.com/default.asp
