@@ -18,6 +18,7 @@ I found out eventually that there were many ways to do the same thing as I went 
 4. Receive password.
 _________________________________________________
 **Below is a link to the deployed application**
+
 ***https://lambaa94.github.io/Password-Gen/***
 
 ## Credits
