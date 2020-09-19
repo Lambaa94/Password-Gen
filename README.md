@@ -16,6 +16,7 @@ I found out eventually that there were many ways to do the same thing as I went 
 2. *Insert* the length of the password.
 3. *Confirm* the characters for the given password.
 4. Receive password.
+_________________________________________________
 **Below is a link to the deployed application**
 ***https://lambaa94.github.io/Password-Gen/***
 
